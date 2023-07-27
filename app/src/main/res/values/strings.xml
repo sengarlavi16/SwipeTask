@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SwipeTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search Products</string>
+    <string name="products">Products</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">₹ 1234.00</string>
+    <string name="_18_0_tax">18.0% Tax</string>
+    <string name="product_type">Product Type</string>
+    <string name="no_network_message">No Network</string>
+    <string name="no_internet">No Internet</string>
+    <string name="add_product">Add Product</string>
+    <string name="prod_name">Product Name*</string>
+    <string name="prod_type">Product Type*</string>
+    <string name="prod_price">Product Price*</string>
+    <string name="product_price">Product Price</string>
+    <string name="prod_tax">Product Tax*</string>
+    <string name="product_tax">Product Tax</string>
+    <string name="product_image_optional">Product Image(Optional)</string>
+    <string name="choose_file">Choose File</string>
+    <string name="no_file_chosen">No File Chosen</string>
+    <string name="submit">Submit</string>
+</resources>

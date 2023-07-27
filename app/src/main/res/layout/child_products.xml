@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/_4dp"
+    android:padding="@dimen/_5dp"
+    android:layout_marginHorizontal="@dimen/_5dp"
+    android:layout_marginVertical="@dimen/_10dp"
+    android:background="@drawable/rounded5_bluebdr_bgwhite"
+    android:id="@+id/conslayout">
+
+    <ImageView
+        android:id="@+id/imgproduct"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_img"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtProdName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/product_name"
+        android:textSize="@dimen/_14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        app:layout_constraintTop_toBottomOf="@id/imgproduct"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+    <TextView
+        android:id="@+id/txtProdType"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/product_type"
+        android:textSize="@dimen/_12sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_slab_regular"
+        app:layout_constraintTop_toBottomOf="@id/txtProdName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+    <TextView
+        android:id="@+id/txtProdTax"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/_18_0_tax"
+        android:textSize="@dimen/_12sp"
+        android:textColor="@color/app_color"
+        android:fontFamily="@font/roboto_slab_medium"
+        app:layout_constraintTop_toBottomOf="@id/imgproduct"
+        app:layout_constraintEnd_toEndOf="@id/imgproduct"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/price"
+        android:textSize="14sp"
+        android:background="@drawable/rounded5_bluebdr_bgwhite"
+        android:textColor="@color/app_color"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:padding="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imgproduct"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
