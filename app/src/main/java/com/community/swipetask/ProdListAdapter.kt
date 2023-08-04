@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.community.swipetask.api.model.ProductListModel
 import com.community.swipetask.databinding.ChildProductsBinding
+import com.squareup.picasso.Picasso
 
 class ProdListAdapter : ListAdapter<ProductListModel, ProdListAdapter.MyViewHolder>(ProductDiffCallback()) {
 
