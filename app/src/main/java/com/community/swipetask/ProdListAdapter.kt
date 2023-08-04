@@ -28,6 +28,11 @@ class ProdListAdapter : ListAdapter<ProductListModel, ProdListAdapter.MyViewHold
 
             val taxFormatted = String.format("%.2f%% Tax", item.tax)
             binding.txtProdTax.text = taxFormatted
+
+            if (!item.image.isNullOrEmpty()) {
+                Picasso.get().load(item.image).into(binding.imgproduct)
+            }
+
         }
     }
 
